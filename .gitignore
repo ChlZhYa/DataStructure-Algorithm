@@ -1,0 +1,12 @@
+#IDEA
+/out/
+lib/
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+
+#System
+.DS_Store
