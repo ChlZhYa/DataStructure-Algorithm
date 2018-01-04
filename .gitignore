@@ -1,6 +1,5 @@
 #IDEA
-/out/
-*/out/
+out/
 lib/
 .idea/
 /idea/
