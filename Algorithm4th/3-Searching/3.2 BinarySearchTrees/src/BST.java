@@ -33,9 +33,6 @@ public class BST<Key extends Comparable<Key>, Value> {
     }
 
     public Value get(Key key) {
-        if (key == null) {
-            return null;
-        }
         return get(root, key);
     }
 
@@ -70,18 +67,17 @@ public class BST<Key extends Comparable<Key>, Value> {
         }
         node.n = size(node.left) + size(node.right) + 1;
 
-        return null;
+        return node;
     }
 
     public Key min() {
-        if (root == null) {
-            return null;
-        }
         return min(root).key;
     }
 
     private Node min(Node node) {
-
+        if (node == null) {
+            return null;
+        }
         if (node.left == null) {
             return node;
         }
@@ -89,13 +85,13 @@ public class BST<Key extends Comparable<Key>, Value> {
     }
 
     public Key max() {
-        if (root == null) {
-            return null;
-        }
         return max(root).key;
     }
 
     private Node max(Node node) {
+        if (node == null) {
+            return null;
+        }
         if (node.right == null) {
             return node;
         }
@@ -184,8 +180,62 @@ public class BST<Key extends Comparable<Key>, Value> {
         }
     }
 
+    public void preOrder() {
+        preOrder(root);
+    }
+
+    /**
+     * 前序遍历以 node 为根的 BST
+     *
+     * @param node 根节点
+     */
+    private void preOrder(Node node) {
+        if (node == null) {
+            return;
+        }
+        System.out.println(node.key);
+        preOrder(node.left);
+        preOrder(node.right);
+    }
+
+    public void inOrder() {
+        inOrder(root);
+    }
+
+    /**
+     * 中序遍历以 node 为根的 BST
+     *
+     * @param node 根节点
+     */
+    private void inOrder(Node node) {
+        if (node == null) {
+            return;
+        }
+        inOrder(node.left);
+        System.out.println(node.key);
+        inOrder(node.right);
+    }
+
+    public void postOrder() {
+        postOrder(root);
+    }
+
+    /**
+     * 后序遍历以 node 为根的 BST
+     * @param node 根节点
+     */
+    private void postOrder(Node node) {
+        if (node == null) {
+            return;
+        }
+        postOrder(node.right);
+        postOrder(node.left);
+        System.out.println(node.key);
+    }
+
     /**
      * 删除 key 最小的节点
+     *
      * @return 删除最小键之后的树的根节点
      */
     public Node deleteMin() {
@@ -219,4 +269,37 @@ public class BST<Key extends Comparable<Key>, Value> {
         node.n = size(node.left) + size(node.right) + 1;
         return node;
     }
+
+    public Node delete(Key key) {
+        return delete(root, key);
+    }
+
+    /**
+     * @return 返回删除该结点之后的树的根结点
+     */
+    private Node delete(Node node, Key key) {
+        if (node == null) {
+            return null;
+        }
+        int cmp = key.compareTo(node.key);
+        if (cmp == 0) {
+            if (node.left == null) {
+                return node.right;
+            }
+            if (node.right == null) {
+                return node.left;
+            }
+            Node replacementNode = min(node.right);
+            replacementNode.right = deleteMin(node.right);
+            replacementNode.left = node.left;
+            node = replacementNode;
+        } else if (cmp < 0) {
+            node.left = delete(node.left, key);
+        } else {
+            node.right = delete(node.right, key);
+        }
+        node.n = size(node.left) + size(node.right) + 1;
+        return node;
+    }
 }
+
