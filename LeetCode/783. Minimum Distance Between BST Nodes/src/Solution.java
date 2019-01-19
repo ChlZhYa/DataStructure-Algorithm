@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * User: Changle
  * Date: 2018-02-14 16:10
@@ -8,7 +10,8 @@
  取出 BST 中的每个元素放到数组中排序，
  
  再求相邻元素之间差值的最小值
-*/ 
+*/
+
  public class Solution {
     
     private int[] nodeArr;
