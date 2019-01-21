@@ -1,24 +1,19 @@
 /**
  * @author Changle
- * @date 2019/1/21 10:42
- * Source: https://leetcode.com/problems/range-sum-of-bst/
+ * @date 2019/1/21 11:16
+ * Source: https://leetcode.com/problems/search-in-a-binary-search-tree/
  */
 
 public class Solution {
 
-    public int rangeSumBST(TreeNode root, int L, int R) {
-        if (root == null) {
-            return 0;
+    public TreeNode searchBST(TreeNode root, int val) {
+        if (root == null || root.val == val) {
+            return root;
         }
-        if (L > R) {
-            return -1;
-        }
-        if (root.val >= L && root.val <= R) {
-            return root.val + rangeSumBST(root.right, L, R) + rangeSumBST(root.left, L, R);
-        } else if (root.val < L) {
-            return rangeSumBST(root.right, L, R);
+        if (root.val < val) {
+            return searchBST(root.right, val);
         } else {
-            return rangeSumBST(root.left, L, R);
+            return searchBST(root.left, val);
         }
     }
 }
