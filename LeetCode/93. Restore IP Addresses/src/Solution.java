@@ -8,7 +8,7 @@ import java.util.List;
  */
 
 public class Solution {
-    List<String> res = new ArrayList();
+    private List<String> res = new ArrayList<>();
     public List<String> restoreIpAddresses(String s) {
         if(s.length() < 4){
             return res;
