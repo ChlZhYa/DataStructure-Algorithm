@@ -111,6 +111,23 @@ public class LinkedList<E> {
     }
 
     /**
+     * 删除链表中元素 e
+     */
+    public void removeElement(E e) {
+        Node prev = dummyHead;
+        while (prev.next != null) {
+            if (prev.next.e.equals(e)) {
+                Node delNode = prev.next;
+                prev.next = delNode.next;
+                delNode.next = null;
+                size--;
+                break;
+            }
+            prev = prev.next;
+        }
+    }
+
+    /**
      * 修改链表索引为 index 的元素为 e
      */
     public void set(int index, E e) {
