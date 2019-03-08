@@ -121,7 +121,7 @@ public class LinkedList<E> {
                 prev.next = delNode.next;
                 delNode.next = null;
                 size--;
-                break;
+                return;
             }
             prev = prev.next;
         }
