@@ -1,7 +1,8 @@
 /**
  * 线段树
  * @author Changle
- * @date 2019/3/11 15:35
+ * @date 2019/3/11 18:48
+ * source: https://leetcode.com/problems/range-sum-query-mutable/
  */
 
 class NumArray {
