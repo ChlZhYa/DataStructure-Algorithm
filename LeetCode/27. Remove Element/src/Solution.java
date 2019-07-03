@@ -1,33 +1,45 @@
 /**
- * User: Changle
- * Date: 2018-02-07 21:09
- * Source: https://leetcode.com/problems/remove-element/description/
+ * @author Changle
+ * @date 2019/7/3 9:35
+ * resource: https://leetcode.com/problems/remove-element/
+ * T(n)：O(n)
+ * S(n)：O(1)
+ * Tag ：Double Pointer Swap
  */
 
-/*
-本题不需要管 返回的length 之后的元素。
-所以使用双指针交换。保持 i 指针位于第一个等于 val 的元素。
-用 j 遍历数组，当遇到等于 不等于 val 的元素时，与 i 位置上的元素交换位置。
+public class Solution {
 
-时间复杂度O(n)
-空间复杂度O(1)
- */
-class Solution {
     public int removeElement(int[] nums, int val) {
-        int i = 0;
-        for(int j = 0;j < nums.length;j++){
-            if(nums[j] != val){
-                if(i != j)
-                    exch(nums,i,j);
-                i++;
-            }
+
+        if (nums == null) {
+            return 0;
         }
-        return i;
+        // 待判断的数
+        int left = 0;
+        // 数组尾部确定等于 val 的数的前一位（即最后一位不确定值的数）
+        int right = nums.length - 1;
+
+        // 当 left == right 时，left 为待判断位，right 也为不确定，需要继续判断，所以
+        // while 循环条件中需要包括 left == right
+        while (left <= right) {
+            // nums[left] == val 时，交换 left 和 right 对应的值
+            // 此时 nums[right] 确定等于 val，right左移。但是 nums[left] 不确定，所以 left 不移动。
+            if (nums[left] == val) {
+                swap(left, right, nums);
+                right--;
+            }
+            // 此时 nums[left] 确定不等于 val，left右移，right 不移动。
+            else {
+                left++;
+            }
+
+        }
+        return right + 1;
     }
 
-    private void exch(int[] arr,int x,int y){
-        int temp = arr[x];
-        arr[x] = arr[y];
-        arr[y] = temp;
+    private void swap(int i, int j, int[] arr) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 }
