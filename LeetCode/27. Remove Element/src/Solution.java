@@ -1,7 +1,7 @@
 /**
  * @author Changle
  * @date 2019/7/3 9:35
- * resource: https://leetcode.com/problems/remove-element/
+ * source: https://leetcode.com/problems/remove-element/
  * T(n)：O(n)
  * S(n)：O(1)
  * Tag ：Double Pointer Swap
