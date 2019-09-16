@@ -13,7 +13,7 @@ import java.util.Arrays;
 空间复杂度: O(1)
  */
 public class Solution {
-
+    // 因为必定存在结果，所以直接先把结果设置成数组里面三个数字的和
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
         int res = nums[0] + nums[1] + nums[2];
