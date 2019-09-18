@@ -17,7 +17,7 @@ public class Solution1 {
         return res;
     }
 
-    private int getCountOfOneAppearInBitsOfNumer(int num) {
+    private int getCountOfOneAppearInBitsOfNumber(int num) {
         int count = 0;
         int curBit;
         while (num > 0) {
