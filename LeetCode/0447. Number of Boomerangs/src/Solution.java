@@ -6,12 +6,12 @@ import java.util.HashMap;
  * Source: https://leetcode.com/problems/number-of-boomerangs/description/
  */
 
-/*
-固定一个点，遍历其它的点。将距离与个数放入 hashmap 中。
-将每个点的结果相加。
-
-时间复杂度: O(n^2)
-空间复杂度: O(n)
+/**
+ * 固定一个点，遍历其它的点。将距离与个数放入 hashmap 中。
+ * 将每个点的结果相加。
+ *
+ * 时间复杂度: O(n^2)
+ * 空间复杂度: O(n)
  */
 public class Solution {
 
@@ -23,7 +23,7 @@ public class Solution {
                 if (j != i) {
                     if (hashMap.containsKey(distance(points[i], points[j]))) {
                         hashMap.put(distance(points[i], points[j]),
-                                hashMap.get(distance(points[i], points[j]))+ 1);
+                                hashMap.get(distance(points[i], points[j])) + 1);
                     } else {
                         hashMap.put(distance(points[i], points[j]), 1);
                     }
