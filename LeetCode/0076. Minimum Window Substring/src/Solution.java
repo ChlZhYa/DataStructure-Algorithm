@@ -4,13 +4,13 @@
  * Source: https://leetcode.com/problems/minimum-window-substring/description/
  */
 
-/*
-使用滑动指针。
-j指针向右移动，当 count == 0 时表示所有 t 中的字符已经出现过一次。
-此时滑动 i 指针。直到 i 指针移动到一个该在 t 中出现的字符为止。
-
-时间复杂度：O(len(s) + len(t))
-空间复杂度：O(1)
+/**
+ * 使用滑动指针。
+ * j指针向右移动，当 count == 0 时表示所有 t 中的字符已经出现过一次。
+ * 此时滑动 i 指针。直到 i 指针移动到一个该在 t 中出现的字符为止。
+ *
+ * 时间复杂度：O(len(s) + len(t))
+ * 空间复杂度：O(1)
  */
 public class Solution {
 
@@ -36,7 +36,7 @@ public class Solution {
                 }
 
                 if (ch[s.charAt(i++)]++ >= 0) {
-                    count ++;
+                    count++;
                 }
             }
         }
