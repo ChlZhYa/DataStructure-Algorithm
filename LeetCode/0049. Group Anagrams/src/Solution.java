@@ -10,18 +10,17 @@ import java.util.Map;
  * Source: https://leetcode.com/problems/group-anagrams/description/
  */
 
-/*
-需要将同字符异序串组合，最直接的方式是将字符串排序。
-对于每个字符，将它们排序，如果排序后的结果一致，那么加入同一个 List。
-用 Map 来存储所有的 List。
-
-时间复杂度: O(n^2 * logn)
-空间复杂度: O(n)
+/**
+ * 需要将同字符异序串组合，最直接的方式是将字符串排序。
+ * 对于每个字符，将它们排序，如果排序后的结果一致，那么加入同一个 List。
+ * 用 Map 来存储所有的 List。
+ *
+ * 时间复杂度: O(n^2 * logn)
+ * 空间复杂度: O(n)
  */
 public class Solution {
 
     public List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> res = new ArrayList<>();
 
         Map<String, List<String>> map = new HashMap<>();
         for (String str : strs) {
@@ -36,7 +35,6 @@ public class Solution {
             }
         }
 
-        res.addAll(map.values());
-        return res;
+        return new ArrayList<>(map.values());
     }
 }
