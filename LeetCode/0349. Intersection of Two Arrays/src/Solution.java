@@ -7,31 +7,34 @@ import java.util.Set;
  * Source: https://leetcode.com/problems/intersection-of-two-arrays/description/
  */
 
-/*
-将一个数组中的元素加入到集合中，然后遍历另一个元素。判断元素是否在集合中出现。
-
-时间复杂度: O(n)
-空间复杂度: O(n)
+/**
+ * 将一个数组中的元素加入到集合中，然后遍历另一个元素。判断元素是否在集合中出现。
+ *
+ * 时间复杂度: O(n)
+ * 空间复杂度: O(n)
  */
 public class Solution {
+
     public int[] intersection(int[] nums1, int[] nums2) {
-        Set<Integer> resSet  = new HashSet<>();
+        Set<Integer> resSet = new HashSet<>();
 
         Set<Integer> set = new HashSet<>();
-        for(int i = 0;i < nums1.length;i++){
-            set.add(nums1[i]);
+        for (int value : nums1) {
+            set.add(value);
         }
 
-        for(int j = 0;j < nums2.length;j++){
-            if(set.contains(nums2[j]))
-                resSet.add(nums2[j]);
+        for (int value : nums2) {
+            if (set.contains(value)) {
+                resSet.add(value);
+            }
         }
 
         int[] res = new int[resSet.size()];
         int index = 0;
 
-        for(Integer i : resSet)
-            res[index++] =  i;
+        for (Integer i : resSet) {
+            res[index++] = i;
+        }
 
         return res;
     }
