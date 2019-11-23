@@ -8,11 +8,11 @@ import java.util.List;
  * Source: https://leetcode.com/problems/4sum/description/
  */
 
-/*
-排序，然后确定两个数，然后使用对撞指针移动另外两个数
-
-时间复杂度: O(n^3)
-空间复杂度: O(n)
+/**
+ * 排序，然后确定两个数，然后使用对撞指针移动另外两个数
+ *
+ * 时间复杂度: O(n^3)
+ * 空间复杂度: O(n)
  */
 public class Solution {
 
