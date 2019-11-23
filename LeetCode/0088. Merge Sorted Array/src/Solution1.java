@@ -2,11 +2,12 @@
  * @author changleamazing
  * @date 2019/11/23 12:31
  **/
-/*
-很容易想到归并，所以使用一个额外数组存放。
 
-时间复杂度：O(n)
-空间复杂度：O(n)
+/**
+ * 很容易想到归并，所以使用一个额外数组存放。
+ *
+ * 时间复杂度：O(n)
+ * 空间复杂度：O(n)
  */
 class Solution1 {
 
@@ -28,8 +29,8 @@ class Solution1 {
             }
         }
 
-        for (int k = 0; k < m + n; k++) {
-            nums1[k] = res[k];
+        if (m + n >= 0) {
+            System.arraycopy(res, 0, nums1, 0, m + n);
         }
     }
 }
