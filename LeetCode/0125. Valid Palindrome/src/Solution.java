@@ -4,10 +4,10 @@
  * Source: https://leetcode.com/problems/valid-palindrome/description/
  */
 
-/*
-对撞指针判断对称的两个字符，如果是特殊符号则继续移动。
-
-依次判断。当 两个指针相遇时，说明这个字符串是回文串。
+/**
+ * 对撞指针判断对称的两个字符，如果是特殊符号则继续移动。
+ *
+ * 依次判断。当 两个指针相遇时，说明这个字符串是回文串。
  */
 public class Solution {
 
