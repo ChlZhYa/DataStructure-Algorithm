@@ -7,15 +7,32 @@ import java.util.Map;
  * Source: https://leetcode.com/problems/max-points-on-a-line/description/
  */
 
-/*
-同一条线上的任意两点的斜率相同。
-将斜率相同的两个点放在一起。这个题目考虑到浮点数的精度问题，不能只把斜率作为 Map 的key来存储。
-所以我们使用一个嵌套 Map ，以便于存放点的坐标以及斜率的次数。
-
-时间复杂度: O(n^2)
-空间复杂度: O(n)
+/**
+ * 同一条线上的任意两点的斜率相同。
+ * 将斜率相同的两个点放在一起。这个题目考虑到浮点数的精度问题，不能只把斜率作为 Map 的key来存储。
+ * 所以我们使用一个嵌套 Map ，以便于存放点的坐标以及斜率的次数。
+ *
+ * 时间复杂度: O(n^2)
+ * 空间复杂度: O(n)
  */
 public class Solution {
+
+    class Point {
+
+        int x;
+        int y;
+
+        Point() {
+            x = 0;
+            y = 0;
+        }
+
+        Point(int a, int b) {
+            x = a;
+            y = b;
+        }
+    }
+
 
     public int maxPoints(Point[] points) {
         if (points == null) {
@@ -74,18 +91,3 @@ public class Solution {
     }
 }
 
-class Point {
-
-    int x;
-    int y;
-
-    Point() {
-        x = 0;
-        y = 0;
-    }
-
-    Point(int a, int b) {
-        x = a;
-        y = b;
-    }
-}
