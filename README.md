@@ -1,4 +1,5 @@
-# LeetCode
+![](https://img.shields.io/badge/finish-77-9cf?style=flat-square&logo=leetcode)
+
 
 | ID   | Problem                                                      | Solution                                                     | Difficulty | Remark        |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ------------- |
