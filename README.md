@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/finish-77-9cf?style=flat-square&logo=leetcode)
+![](https://img.shields.io/badge/FINISHED-78-9cf?style=flat-square&logo=leetcode)
 
 
 | ID   | Problem                                                      | Solution                                                     | Difficulty | Remark        |
@@ -8,6 +8,7 @@
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0003.%20Longest%20Substring%20Without%20Repeating%20Characters/src/Solution.java) | Medium     |               |
 | 0004 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0004.%20Median%20of%20Two%20Sorted%20Arrays/src/Solution.java) | Hard       |               |
 | 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0005.%20Longest%20Palindromic%20Substring/src/Solution.java) | Medium     | To Optimize   |
+| 0006 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0006.%20ZigZag%20Conversion/src/Solution.java) | Medium  |    |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0007.%20Reverse%20Integer/src/Solution.java) | Easy  |     |
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0009.%20Palindrome%20Number/src/Solution.java) | Easy       |               |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0011.%20Container%20With%20Most%20Water/src/Solution.java) | Medium |               |
