@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/FINISHED-78-9cf?style=flat-square&logo=leetcode)
+![](https://img.shields.io/badge/FINISHED-79-9cf?style=flat-square&logo=leetcode)
 
 
 | ID   | Problem                                                      | Solution                                                     | Difficulty | Remark        |
@@ -10,6 +10,7 @@
 | 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0005.%20Longest%20Palindromic%20Substring/src/Solution.java) | Medium     | To Optimize   |
 | 0006 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0006.%20ZigZag%20Conversion/src/Solution.java) | Medium  |    |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0007.%20Reverse%20Integer/src/Solution.java) | Easy  |     |
+| 0008 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0008.%20String%20to%20Integer%20(atoi)/src/Solution.java) | Medium  |   Not Recommend  |
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0009.%20Palindrome%20Number/src/Solution.java) | Easy       |               |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0011.%20Container%20With%20Most%20Water/src/Solution.java) | Medium |               |
 | 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0013.%20Roman%20to%20Integer/src/Solution.java) | Easy | Not Recommend |
