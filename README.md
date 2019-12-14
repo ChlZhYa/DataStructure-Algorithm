@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/FINISHED-80-9cf?style=flat-square&logo=leetcode)
+![](https://img.shields.io/badge/FINISHED-81-9cf?style=flat-square&logo=leetcode)
 
 
 | ID   | Problem                                                      | Solution                                                     | Difficulty | Remark        |
@@ -39,7 +39,7 @@
 | 0093 | [Restore IP Addresses](https://leetcode.com/problems/merge-sorted-array/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0093.%20Restore%20IP%20Addresses/src/Solution2.java) | Medium |               |
 | 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0096.%20Unique%20Binary%20Search%20Trees/src/Solution.java) |Medium |               |
 | 0120 | [Triangle](https://leetcode.com/problems/triangle/)          | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0120.%20Triangle/src/Solution.java) | Medium |               |
-| 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)          | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0120.%20Triangle/src/Solution.java) | Easy |        DP       |
+| 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)          | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock/src/Solution.java) | Easy |        DP       |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0125.%20Valid%20Palindrome/src/Solution.java) | Medium |               |
 | 0131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0131.%20Palindrome%20Partitioning/src/Solution.java) | Medium |               |
 | 0149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0149.%20Max%20Points%20on%20a%20Line/src/Solution.java) | Hard |               |
