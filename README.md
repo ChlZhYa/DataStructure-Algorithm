@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/FINISHED-83-9cf?style=flat-square&logo=leetcode)
+![](https://img.shields.io/badge/FINISHED-84-9cf?style=flat-square&logo=leetcode)
 
 
 | ID   | Problem                                                      | Solution                                                     | Difficulty | Remark        |
