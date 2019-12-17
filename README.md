@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/FINISHED-84-9cf?style=flat-square&logo=leetcode)
+![](https://img.shields.io/badge/FINISHED-85-9cf?style=flat-square&logo=leetcode)
 
 
 | ID   | Problem                                                      | Solution                                                     | Difficulty | Remark        |
@@ -26,6 +26,7 @@
 | 0035 | [ Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0035.%20Search%20Insert%20Position/src/Solution.java) | Easy |               |
 | 0046 | [Permutations](https://leetcode.com/problems/permutations/)  | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0046.%20Permutations/src/Solution.java) | Medium |               |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0049.%20Group%20Anagrams/src/Solution.java) | Medium |               |
+| 0051 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0051.%20N-Queens/src/Solution.java) | Hard |      BackTracing         |
 | 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/)  | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0062.%20Unique%20Paths/src/Solution.java) | Medium |               |
 | 0063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0063.%20Unique%20Paths%20II/src/Solution.java) | Medium |               |
 | 0064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0064.%20Minimum%20Path%20Sum/src/Solution.java) | Medium ||
