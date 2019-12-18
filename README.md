@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/FINISHED-87-9cf?style=flat-square&logo=leetcode)
+![](https://img.shields.io/badge/FINISHED-88-9cf?style=flat-square&logo=leetcode)
 
 
 | ID   | Problem                                                      | Solution                                                     | Difficulty | Remark        |
@@ -19,6 +19,7 @@
 | 0016 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/)  | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0016.%203Sum%20Closest/src/Solution.java) | Medium |               |
 | 0017 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0017.%20Letter%20Combinations%20of%20a%20Phone%20Number/src/Solution.java) | Medium |               |
 | 0018 | [4Sum](https://leetcode.com/problems/4sum/)                  | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0018.%204Sum/src/Solution.java) | Medium |               |
+| 0019 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)                  | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0019.%20Remove%20Nth%20Node%20From%20End%20of%20List/src/Solution.java) | Medium | Double-Pointer   |
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0020.%20Valid%20Parentheses/src/Solution.java) | Easy |               |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0021.%20Merge%20Two%20Sorted%20Lists/src/Solution.java) | Easy |               |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0026.%20Remove%20Duplicates%20from%20Sorted%20Array/src/Solution.java) | Easy |               |
