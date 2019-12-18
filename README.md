@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/FINISHED-88-9cf?style=flat-square&logo=leetcode)
+![](https://img.shields.io/badge/FINISHED-90-9cf?style=flat-square&logo=leetcode)
 
 
 | ID   | Problem                                                      | Solution                                                     | Difficulty | Remark        |
@@ -29,6 +29,7 @@
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0049.%20Group%20Anagrams/src/Solution.java) | Medium |               |
 | 0051 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0051.%20N-Queens/src/Solution.java) | Hard |      BackTracing         |
 | 0052 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0052.%20N-Queens%20II/src/Solution.java) | Hard |      BackTracing         |
+| 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0053.%20Maximum%20Subarray/src/Solution.java) | Easy |      DP         |
 | 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/)  | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0062.%20Unique%20Paths/src/Solution.java) | Medium |               |
 | 0063 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0063.%20Unique%20Paths%20II/src/Solution.java) | Medium |               |
 | 0064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0064.%20Minimum%20Path%20Sum/src/Solution.java) | Medium ||
@@ -55,6 +56,7 @@
 | 0202 | [Happy Number](https://leetcode.com/problems/house-robber/)  | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0202.%20Happy%20Number/src/Solution.java) | Easy |               |
 | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0203.%20Remove%20Linked%20List%20Elements/src/Solution.java) | Easy |               |
 | 0205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0205.%20Isomorphic%20Strings/src/Solution.java) | Easy |               |
+| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0206.%20Reverse%20Linked%20List/src/Solution.java) | Easy |               |
 | 0208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0208.%20Implement%20Trie%20(Prefix%20Tree)/src/Trie.java) | Medium |               |
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0209.%20Minimum%20Size%20Subarray%20Sum/src/Solution.java) | Medium |               |
 | 0211 | [ Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0211.%20Add%20and%20Search%20Word%20-%20Data%20structure%20design/src/WordDictionary.java) | Medium |               |
