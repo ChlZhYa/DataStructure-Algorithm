@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/FINISHED-90-9cf?style=flat-square&logo=leetcode)
+![](https://img.shields.io/badge/FINISHED-91-0aa?style=flat-square&logo=leetcode)
 
 
 | ID   | Problem                                                      | Solution                                                     | Difficulty | Remark        |
@@ -42,6 +42,7 @@
 | 0091 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0091.%20Decode%20Ways/src/Solution.java) | Medium |               |
 | 0093 | [Restore IP Addresses](https://leetcode.com/problems/merge-sorted-array/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0093.%20Restore%20IP%20Addresses/src/Solution2.java) | Medium |               |
 | 0096 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0096.%20Unique%20Binary%20Search%20Trees/src/Solution.java) |Medium |               |
+| 0104 | [Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/tree/amazing/LeetCode/0104.%20Maximum%20Depth%20of%20Binary%20Tree/src/Solution.java) | Easy |       Recursion        |
 | 0120 | [Triangle](https://leetcode.com/problems/triangle/)          | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0120.%20Triangle/src/Solution.java) | Medium |               |
 | 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)          | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock/src/Solution.java) | Easy |        DP       |
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)          | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II/src/Solution.java) | Easy |        DP       |
