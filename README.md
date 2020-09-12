@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/FINISHED-93-0aa?style=flat-square&logo=leetcode)
+![](https://img.shields.io/badge/FINISHED-96-0aa?style=flat-square&logo=leetcode)
 
 
 | ID   | Problem                                                      | Solution                                                     | Difficulty | Remark        |
@@ -24,7 +24,9 @@
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0021.%20Merge%20Two%20Sorted%20Lists/src/Solution.java) | Easy |               |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0026.%20Remove%20Duplicates%20from%20Sorted%20Array/src/Solution.java) | Easy |               |
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0027.%20Remove%20Element/src/Solution.java) | Easy |               |
-| 0035 | [ Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0035.%20Search%20Insert%20Position/src/Solution.java) | Easy |               |
+| 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0035.%20Search%20Insert%20Position/src/Solution.java) | Easy |               |
+| 0039 | [Combination Sum](https://leetcode-cn.com/problems/combination-sum/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0039.%20Combination%20Sum/src/Solution.java) | Medium |        Backtracing       |
+| 0040 | [Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0040.%20Combination%20Sum%20II/src/Solution.java) | Medium |        Backtracing       |
 | 0046 | [Permutations](https://leetcode.com/problems/permutations/)  | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0046.%20Permutations/src/Solution.java) | Medium |               |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0049.%20Group%20Anagrams/src/Solution.java) | Medium |               |
 | 0051 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0051.%20N-Queens/src/Solution.java) | Hard |      BackTracing         |
@@ -63,6 +65,7 @@
 | 0211 | [ Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0211.%20Add%20and%20Search%20Word%20-%20Data%20structure%20design/src/WordDictionary.java) | Medium |               |
 | 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0213.%20House%20Robber%20II/src/Solution.java) | Medium |               |
 | 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0215.%20Kth%20Largest%20Element%20in%20an%20Array/src/Solution.java) | Medium |               |
+| 0216 | [Combination Sum III](https://leetcode-cn.com/problems/combination-sum-iii/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0216.%20Combination%20Sum%20III/src/Solution.java) | Medium |       Backtracing       |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0217.%20Contains%20Duplicate/src/Solution.java) | Easy |               |
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0219.%20Contains%20Duplicate%20II/src/Solution.java) | Easy |               |
 | 0220 | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0220.%20Contains%20Duplicate%20III/src/Solution.java) | Medium |               |
