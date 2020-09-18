@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/FINISHED-96-0aa?style=flat-square&logo=leetcode)
+![](https://img.shields.io/badge/FINISHED-97-0aa?style=flat-square&logo=leetcode)
 
 
 | ID   | Problem                                                      | Solution                                                     | Difficulty | Remark        |
@@ -28,6 +28,7 @@
 | 0039 | [Combination Sum](https://leetcode-cn.com/problems/combination-sum/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0039.%20Combination%20Sum/src/Solution.java) | Medium |        Backtracing       |
 | 0040 | [Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0040.%20Combination%20Sum%20II/src/Solution.java) | Medium |        Backtracing       |
 | 0046 | [Permutations](https://leetcode.com/problems/permutations/)  | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0046.%20Permutations/src/Solution.java) | Medium |               |
+| 0046 | [Permutations](https://leetcode-cn.com/problems/permutations-ii/)  | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0047.%20Permutations%20II/src/Solution.java) | Medium |       Backtracing        |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0049.%20Group%20Anagrams/src/Solution.java) | Medium |               |
 | 0051 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0051.%20N-Queens/src/Solution.java) | Hard |      BackTracing         |
 | 0052 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | [Solution](https://github.com/ChangleAmazing/DataStructure-Algorithm/blob/amazing/LeetCode/0052.%20N-Queens%20II/src/Solution.java) | Hard |      BackTracing         |
