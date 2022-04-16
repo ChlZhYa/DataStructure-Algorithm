@@ -1,7 +1,7 @@
 /**
  * @author Changle
  * @date 2019/6/26 9:36
- * source: https://leetcode.com/problems/merge-two-sorted-lists/
+ * source: <a href="https://leetcode.com/problems/merge-two-sorted-lists/">https://leetcode.com/problems/merge-two-sorted-lists/</a>
  * T(n): O(l1.len + l2.len)
  * S(n): O(l1.len + l2.len)
  */
@@ -21,16 +21,7 @@ public class Solution {
             }
             cur = cur.next;
         }
-        while (l1 != null) {
-            cur.next = l1;
-            l1 = l1.next;
-            cur = cur.next;
-        }
-        while (l2 != null) {
-            cur.next = l2;
-            l2 = l2.next;
-            cur = cur.next;
-        }
+        cur.next = l1 == null ? l2 : l1;
 
         return dummy.next;
 
