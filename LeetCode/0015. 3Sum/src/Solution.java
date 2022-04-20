@@ -3,23 +3,22 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * User: Changle
+ * User: ChlZhYa
  * Date: 2018-03-11 10:13
- * Source: https://leetcode.com/problems/3sum/description/
+ * Source: <a href="https://leetcode.com/problems/3sum/description/">https://leetcode.com/problems/3sum/description/</a>
  */
 
-/*
-考虑到 3sum 至少需要两遍循环，复杂度至少是 O(n^2) ，所以可以先排序。
-排序之后使用对撞指针即可。
 
-相比 2sum ，关键在于过滤掉重复的结果。
-
-时间复杂度: O(n^2)
-空间复杂度: O(n)
- */
 public class Solution {
+    /**
+     考虑到 3sum 至少需要两遍循环，复杂度至少是 O(n^2) ，所以可以先排序。
+     排序之后使用对撞指针即可。
 
-    class Solution {
+     相比 2sum ，关键在于过滤掉重复的结果。
+
+     时间复杂度: O(n^2)
+     空间复杂度: O(n)
+     */
      public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
@@ -47,5 +46,4 @@ public class Solution {
         }
         return res;
     }
-}
 }
