@@ -59,8 +59,4 @@ public class Solution {
         return result == 't';
     }
 
-    public static void main(String[] args){
-        Solution solution = new Solution();
-        solution.parseBoolExpr("&(|(f))");
-    }
 }
