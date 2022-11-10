@@ -1,3 +1,5 @@
+package L1678;
+
 public class Solution {
     public String interpret(String command) {
         StringBuilder sb = new StringBuilder();

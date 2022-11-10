@@ -1,3 +1,5 @@
+package L1106;
+
 import java.util.*;
 
 public class Solution {

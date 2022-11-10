@@ -1,3 +1,5 @@
+package L0001;
+
 import java.util.HashMap;
 
 public class Solution {
